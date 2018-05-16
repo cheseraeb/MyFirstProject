@@ -9,3 +9,9 @@ button {background-color: transparent; color: snow}
 table {background-color: blue}
 tr {background-color: limegreen}
 td {color: black}
+#body{
+    background: url(../Images/IMG_205313.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 10px solid black;
+}
