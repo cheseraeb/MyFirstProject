@@ -1,0 +1,9 @@
+button {background-color: transparent;
+    color: snow;
+    font-size: 30px;
+    size: 30px;
+    text-transform: uppercase;
+    border-color: white;
+    border-spacing: 10px;
+    border-style: double;
+    border-width: 10px}

@@ -1,0 +1,10 @@
+ #Heading h1 {text-align: center;
+    text-transform: uppercase; text-decoration-line: underline}
+#body{
+    background: url(../Images/IMG_205313.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    background-attachment: fixed;
+    }
+    
