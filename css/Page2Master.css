@@ -1,10 +1,9 @@
 h1 {text-align: center; text-transform: uppercase; text-decoration-line: underline}
-#Navigation button{color: red} a{color: white}
-#index a{color: white}
+a{color: white}
 #body {
     background: url(../Images/burning_hd_nature_wallpaper.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     border: 10px solid black;
     color: white;
 }
