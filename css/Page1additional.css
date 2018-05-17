@@ -4,7 +4,6 @@ ul {text-emphasis-style: bold}
 ol {text-emphasis-style: bold}
 h3 {font-style: italic; text-decoration-line: underline}
 body {color: white}
-address {text-align: center; font-size: 50px}
 table {background-color: blue}
 tr {background-color: limegreen}
 td {color: black; font-size: 200%}
