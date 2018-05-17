@@ -2,9 +2,14 @@ h1 {text-align: center;
     text-transform: uppercase; text-decoration-line: underline; text-decoration-color: black}
 body {color: white}
 #form{
-    font-size: 300%;
+    font-size: 200%;
     
-} input{font-size: 100%} fieldset{color: white; border-color: yellow} legend{color: springgreen}
+} input{font-size: 100%}
+  fieldset{color: white; border-color: yellow}
+  legend{color: springgreen}
+  option{font-size: 100%} 
+  select{font-size: 60%}
+  textarea{font-size: 60%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 
 
 

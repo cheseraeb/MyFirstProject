@@ -22,15 +22,41 @@
                         <input type="radio" name="Gender" value="Male">Male<br>
                         <input type="radio" name="Gender" value="Female">Female<br>
                         <input type="radio" name="Gender" value="Other">Other <br>
-                    </fieldset>
+                        <br>
+                        Citizenship:
+                        <input list="Citizenship">
+                        <datalist id="Citizenship">
+                            <option value="ZA">South Africa</option>
+                            <option value="USA">American</option>
+                            <option value="GB">British</option>
+                            <option value="Other">Other</option>
+                        </datalist>
+                </fieldset>
+
                 <fieldset>
                     <legend>Vehicle information</legend>
-                        Vehicle: <input type="text" name="Vehicle"><br>
+                        Vehicle: 
+                        <select name="Vehicles" multiple>
+                            <option value="ford">Ford</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="bmw">BMW</option>
+                            <option value="toyota">Toyota</option>
+                        </select> 
+                        <br>
+                        (Hold "Ctrl" to select mutiple)
+                        <br><br>
+                        Comments: <br>
+                        <textarea name="Comments" id="comments" cols="30" rows="10"></textarea>
                 </fieldset>
                 <input type="submit" value="Submit">    
+                <br>
+                <br>
+                <button type="button" onclick="alert('HA HA made you click')">Click on me for MORE!!!</button>
+                
            </form> 
         </div>
         <div id="NavigationPanel">
+            <hr>
             <a href="Page1.html"><button>go back</button></a>
         </div>
     </body>
