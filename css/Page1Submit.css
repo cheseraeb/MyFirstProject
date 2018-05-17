@@ -4,7 +4,7 @@ body {color: white}
 #form{
     font-size: 300%;
     
-} input{font-size: 100%}
+} input{font-size: 100%} fieldset{color: white; border-color: yellow} legend{color: springgreen}
 
 
 
