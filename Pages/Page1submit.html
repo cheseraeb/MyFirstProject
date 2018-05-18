@@ -16,8 +16,8 @@
            <form action="">
                <fieldset>
                    <legend>Personal Information</legend>
-                        First Name: <input type="text" name="FirstName" placeholder="FirstName"><br>
-                        Last Name: <input type="text" name="LastName" placeholder="Last Name"><br>
+                        First Name: <input type="text" name="FirstName" placeholder="FirstName" required><br>
+                        Last Name: <input type="text" name="LastName" placeholder="Last Name" required><br>
                         Gender: <br>
                         <input type="radio" name="Gender" value="Male">Male<br>
                         <input type="radio" name="Gender" value="Female">Female<br>
@@ -31,20 +31,20 @@
                             <option value="Other">Other</option>
                         </datalist><br>
                         Date of birth:
-                        <input type="date" name="DOB" id="DOB" max="2000-01-01"><br>
+                        <input type="date" name="DOB" id="DOB" max="2000-01-01" required><br>
                         When did you finish high school?
                         <input type="date" name="School" id="School" min="1990-12-31"><br>
                         What is your favorite color?
                         <input type="color" name="FavCol"><br>
                         Contact number Please?
-                        <input type="tel" name="Contact" id="Contact">
+                        <input type="tel" name="Contact" id="Contact" required>
 
                 </fieldset>
 
                 <fieldset>
                     <legend>Vehicle information</legend>
                         Vehicle: 
-                        <select name="Vehicles" multiple>
+                        <select name="Vehicles" multiple required>
                             <option value="ford">Ford</option>
                             <option value="volvo">Volvo</option>
                             <option value="bmw">BMW</option>
@@ -67,11 +67,11 @@
                 <fieldset>
                     <legend>Registration</legend>
                     User name : <br>
-                    <input type="text" name="username"><br>
+                    <input type="text" name="username" required><br>
                     Password : <br>
-                    <input type="password" name="psw"><br>
+                    <input type="password" name="psw" required><br>
                     Email Address: <br>
-                    <input type="email" name="Email" id="eml" placeholder="Valid email address">
+                    <input type="email" name="Email" id="eml" placeholder="Valid email address" required>
                 </fieldset>
                 <br>
                 <br>
