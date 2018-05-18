@@ -13,16 +13,15 @@
             <hr>
         </div>
         <div id="form">
-           <form>
+           <form action="">
                <fieldset>
                    <legend>Personal Information</legend>
-                        First Name: <input type="text" name="FirstName"><br>
-                        Last Name: <input type="text" name="LastName"><br>
+                        First Name: <input type="text" name="FirstName" placeholder="FirstName"><br>
+                        Last Name: <input type="text" name="LastName" placeholder="Last Name"><br>
                         Gender: <br>
                         <input type="radio" name="Gender" value="Male">Male<br>
                         <input type="radio" name="Gender" value="Female">Female<br>
                         <input type="radio" name="Gender" value="Other">Other <br>
-                        <br>
                         Citizenship:
                         <input list="Citizenship">
                         <datalist id="Citizenship">
@@ -30,7 +29,16 @@
                             <option value="USA">American</option>
                             <option value="GB">British</option>
                             <option value="Other">Other</option>
-                        </datalist>
+                        </datalist><br>
+                        Date of birth:
+                        <input type="date" name="DOB" id="DOB" max="2000-01-01"><br>
+                        When did you finish high school?
+                        <input type="date" name="School" id="School" min="1990-12-31"><br>
+                        What is your favorite color?
+                        <input type="color" name="FavCol"><br>
+                        Contact number Please?
+                        <input type="tel" name="Contact" id="Contact">
+
                 </fieldset>
 
                 <fieldset>
@@ -44,40 +52,66 @@
                         </select> 
                         <br>
                         (Hold "Ctrl" to select mutiple)
+                        <br>
+                        What else do you have?<br>
+                        <input type="checkbox" name="other1" value="Bike">I have a Motorbike<br>
+                        <input type="checkbox" name="other2" value="Boat">I have a Boat<br>
+                        <input type="checkbox" name="other3" value="Caravan">I have a Caravan<br>
+                        <input type="checkbox" name="other4" value="Trailer">I have a Trailer<br>
+                        <br>
+                        Select images of your vehicles <br> <input type="file" name="img" multiple> 
                         <br><br>
                         Comments: <br>
                         <textarea name="Comments" id="comments" cols="30" rows="10"></textarea>
                 </fieldset>
                 <fieldset>
-                    <legend>Some random stuff</legend>
-                    <br>
-                    Try my AWESOME Calculator below <br>
-                    (Will work once i get to PHP)
-                    <br>
-                    <form oninput="x=a">
-                        0
-                        <input type="range" id="a" name="a" value="50">
-                        100 <br>
-                        <br>
-                        <input type="number" id="b" name="b" value="50"><br>
-                        
-                        <output name="x" for="a"></output>
-                        <br><br>
-                        <input type="submit">
-                    </form>
-
+                    <legend>Registration</legend>
+                    User name : <br>
+                    <input type="text" name="username"><br>
+                    Password : <br>
+                    <input type="password" name="psw"><br>
+                    Email Address: <br>
+                    <input type="email" name="Email" id="eml" placeholder="Valid email address">
                 </fieldset>
-                <input type="submit" value="Submit">    
                 <br>
+                <br>
+                <input type="image" src="../images/Submit_Button.jpg" alt="Submit">
+                <input type="reset" value="Reset all">
+     
                 <br>
                 <button type="button" onclick="alert('HA HA made you click')">Click on me for MORE!!!</button>
                 
            </form> 
+           <hr>
+           <form action="">
+            <fieldset>
+                <legend>Some random stuff</legend>
+                 <br>
+                   Try my AWESOME Calculator below <br>
+                   (Will work once i get to PHP)
+                 <br>
+                   0
+                   <input type="range" id="a" name="a" value="50">
+                   100 <br>
+                   <br>
+                   <input type="number" id="b" name="b" value="50"><br>
+                   <output name="x" for="a"></output>
+                   <br><br>
+                   <hr>
+                   Is there anything you would like to search?<br>
+                   <input type="search" name="googlesearch" id="google" placeholder="googlesearch"><br>
+
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset all">
+           </form>
+   
         </div>
         <div id="NavigationPanel">
             <hr>
             <a href="Page1.html"><button>go back</button></a>
         </div>
+
     </body>
     <div id="footer">
         <footer>
