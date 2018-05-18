@@ -6,6 +6,8 @@ h1 {text-align: center;
     background-size: cover;
     border: 10px solid black;
     background-attachment: fixed;
+    font-size: 200%
     ;
 }
 #footer address {text-align: center; font-size: 50px}
+#iframe iframe{background: transparent}
