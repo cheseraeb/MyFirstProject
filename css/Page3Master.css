@@ -1,0 +1,11 @@
+h1 {text-align: center;
+    text-transform: uppercase; text-decoration-line: underline; text-decoration-color: black}
+#body{
+    background: lightskyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    background-attachment: fixed;
+    ;
+}
+#footer address {text-align: center; font-size: 50px}
