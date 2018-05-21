@@ -1,0 +1,9 @@
+#body{
+    background: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    background-attachment: fixed;
+    font-size: 200%
+    ;
+}
