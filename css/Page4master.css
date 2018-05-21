@@ -9,11 +9,14 @@
 }
 video{display: block;
         margin: 0 auto}
-p {text-align: center;
+iframe{display: block;
+      margin: 0 auto}
+    p {text-align: center;
     text-decoration-line: underline;
     text-emphasis: initial;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     text-decoration-color: blue;
     text-transform: uppercase}
+h3 {text-align: center; text-decoration-line: underline; text-decoration-color: black; text-transform: uppercase}
     
