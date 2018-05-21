@@ -13,8 +13,8 @@ function showPosition3(position) {
     var lon = position.coords.longitude;
     var latlon = new google.maps.LatLng(lat, lon)
     var mapholder = document.getElementById('mapholder2')
-    mapholder.style.height = '250px';
-    mapholder.style.width = '500px';
+    mapholder.style.height = '500px';
+    mapholder.style.width = '1000px';
 
     var myOptions1 = {
     center:latlon,zoom:17,
