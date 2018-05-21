@@ -7,3 +7,5 @@ button {background-color: transparent;
     border-spacing: 10px;
     border-style: double;
     border-width: 10px}
+h1 {text-align: center;
+    text-transform: uppercase; text-decoration-line: underline; text-decoration-color: black}
