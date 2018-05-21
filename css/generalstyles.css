@@ -13,4 +13,9 @@ h2 {text-align: center;
     text-transform: uppercase;
     text-decoration-line: underline;
     text-decoration-color: black}
+h3 {text-align: center;
+     text-decoration-line: underline;
+      text-decoration-color: black;
+       text-transform: uppercase
+    }    
 #footer address {text-align: center; font-size: 50px}
