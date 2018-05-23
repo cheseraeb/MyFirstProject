@@ -1,2 +1,29 @@
-h1 {text-align: center;
-    text-transform: uppercase; text-decoration-line: underline}
+/* ********************************************************************
+*   Author : Cheserae Bidgood(Beukes)
+*   Date : 23/05/2018   
+*
+**********************************************************************/
+/* Important Declarations */
+
+/* ID Elemets */
+#welcome_message{
+
+}
+#header{
+
+}
+#content_header{
+
+}
+/* Class Elements */
+.deck{
+    display: block;
+    color: red
+}
+/* Tag elemets */
+a{
+    color: greenyellow;
+}
+button{
+    background-color: greenyellow;
+}
