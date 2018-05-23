@@ -4,9 +4,10 @@
 *
 **********************************************************************/
 /* Important Declarations */
-button{
-    background-color: red;
+a[href^="Pages"]{
+    background-color:  blueviolet !important;
 }
+
 /* ID Elemets *******************************************************/
 #welcome_message{
     font-size: 35px;
@@ -32,13 +33,11 @@ button{
     text-transform: uppercase
 }
 /* Class Elements **************************************************/
-/*  */
+/* Pseudo Selectors */
+
 /* Tag elemets */
 a{
     color: greenyellow;
-}
-button{
-    background-color: greenyellow;
 }
 span{
      color: red
@@ -55,7 +54,18 @@ span[class$="m"]{
     color: green;
 }
 /* below search for something starting*/
-a[href^="Pages"]{
-    background-color:  blueviolet !important;
+/* Pseudo Selectors */
+/* Behaviour */
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: orange;
+}
+button:visited{
+    background-color: purple;
 }
 
+p{
+    color: red;
+}
