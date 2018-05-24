@@ -3,4 +3,28 @@
 *   Date : 23/05/2018   
 *
 **********************************************************************/
-/* Text Declerations */
+/* Text Declerations *************************************************/
+/* Transformation */
+
+#greet p{
+    text-transform: capitalize;
+}
+#greet_somemore p{
+    text-transform: uppercase;
+}
+#greet h2{
+    text-transform: lowercase;
+}
+/* Text color */
+/* Fore Ground */
+#greet p{
+    color: blue;
+}
+#greet_somemore p{
+    color: #982773;
+}
+/* Background */
+#greet {
+    background-color: aqua;
+}
+/* Styling Links */
