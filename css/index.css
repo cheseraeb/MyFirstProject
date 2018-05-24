@@ -54,7 +54,7 @@ span[class$="m"]{
     color: green;
 }
 /* below search for something starting*/
-/* Pseudo Selectors */
+/* Pseudo Selectors **************************************************/
 /* Behaviour */
 button:hover{
     background-color: blue;
@@ -65,7 +65,56 @@ button:active{
 button:visited{
     background-color: purple;
 }
-
-p{
+/* First and last child elements */
+div p:first-child{
+    font-weight: bold;
+}
+div p:last-child{
+    color: blue;
+}
+/* First & Last of Type Selectors */
+div p:first-of-type{
+    font-weight: bold;
+}
+div p:last-of-type{
+    color: blue;
+}
+/* nth Child and type Selectors: targeting specific child/type elements */
+li:nth-child(5), li:nth-child(7){
+    font-weight: bold;
     color: red;
+}
+li:nth-child(even){
+    background: grey;
+}
+li:nth-child(odd){
+    background: green;
+}
+li:nth-child(3n + 1){
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-style: italic;
+}
+article:nth-of-type(2){
+    font-size: 20px;
+    background: yellow;
+}
+article:nth-of-type(odd){
+    font-size: 20px;
+    background: red;
+}
+article:nth-of-type(even){
+    font-style: italic;
+}
+/* Combining selectors */
+article.more{
+    background: green;
+}
+div.more{
+    background: orangered;
+}
+/* Universal Selector selects EVERYTHING*/
+*{
+ font-style: italic;
+ font-weight: bold;
 }
