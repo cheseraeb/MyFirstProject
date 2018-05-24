@@ -3,6 +3,9 @@
 *   Date : 23/05/2018   
 *
 **********************************************************************/
+*{
+    font-family: "Yu Gothic"
+}
 /* Font Size******************************************************** */
 /* Absolute value */
 h1{
@@ -24,4 +27,37 @@ article h1{
 }
 article p{
     font-size: 50%; /*meaning 1/2 the size of the inherited style*/
+}
+/* Font family****************************************************** */
+#greet{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Text Decoration************************************************** */
+#greet_somemore{
+    text-decoration: overline;
+}
+#greet_somemore p{
+    text-decoration: underline;
+}
+#greet_somemore ol{
+    text-decoration: line-through;
+}
+#greet_somemore li{
+    text-decoration: inherit;
+}
+/* Font Weight****************************************************** */
+article h1{
+    font-weight: lighter;
+}
+article h2{
+    font-weight: bold;
+}
+article h3{
+   font-weight: normal;
+}
+article p{
+    font-weight: bolder;
+}
+article h4{
+    font-weight: 100;
 }
