@@ -3,3 +3,25 @@
 *   Date : 23/05/2018   
 *
 **********************************************************************/
+/* Font Size******************************************************** */
+/* Absolute value */
+h1{
+    font-size: 30px
+}
+/* Relative value */
+ol{
+    font-size: 16px;
+}
+ol li{
+    font-size: 4em; /* meaning 4x the oriinal size */
+}
+
+article{
+    font-size: 20px;
+}
+article h1{
+    font-size: 150%; /*meaning 50% bigger than inherited style*/
+}
+article p{
+    font-size: 50%; /*meaning 1/2 the size of the inherited style*/
+}
