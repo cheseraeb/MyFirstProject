@@ -28,3 +28,53 @@
     background-color: aqua;
 }
 /* Styling Links */
+a{display: block;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: red;
+    text-decoration-line: underline;
+    background: aquamarine;
+}
+a:active{
+    color: blue;
+}
+/* Letter Spacing & Line Height */
+article:first-of-type p{
+    font-size: 20px;
+    letter-spacing: 5px
+}
+article:nth-of-type(2) p{
+    font-size: 20px;
+    word-spacing: 5px;
+}
+article:nth-of-type(3) p{
+    font-size: 25px;
+    line-height: 2em
+}
+/* Paragraph Spacing */
+#greet_somemore p{
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 32px;
+}
+/* The Box Model */
+/* Here we will do margins, padding etc */
+.greet_box1{
+    margin: 25px auto;
+    padding: 25px 20%;
+    border: 3px solid black;
+    width: 100px;
+    border-radius: 10px;
+}
+.greet_box2{
+    margin: 25px auto;
+    padding: 25px auto;
+    border: 3px solid black;
+    width: 75%;
+    height: fit-content;
+}
