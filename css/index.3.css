@@ -78,3 +78,22 @@
     background: -webkit-linear-gradient(top, yellow 0%, #ff4800 100%); /*chrome or safari*/
     background: linear-gradient(top, #ff6600 0%, yellow 100%);
 }
+.button:hover{
+    background: #ff6600;
+    background: linear-gradient(top, #ff6600 0%, yellow 100%);
+    /* The above parameters(where to begin, 
+    which color and % start, which color and % end) the above wont work
+    we need some vendor prefixes */
+    background: -moz-linear-gradient(bottom, #ff6600 0%, yellow 100%); /*Motzilla*/
+    background: -webkit-linear-gradient(bottom, yellow 0%, #ff4800 100%); /*chrome or safari*/
+    background: linear-gradient(bottom, #ff6600 0%, yellow 100%);
+
+}
+/* Box Shadow */
+.button{
+    box-shadow: 10px 10px 9px -1px rgba(255,0,0,0.83);
+    /* box-shadow: 4px 4px 2px 2px rgba(255, 0, 0, 0.596) ; */
+    /*horizontal(+ value is right - value is left ,
+     vertical + value is to bottom - value is top, blur radius, spread, color */
+}
+/* Browser Support */
