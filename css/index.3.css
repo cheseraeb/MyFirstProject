@@ -49,9 +49,32 @@
     background-color: #ff9100;
 }
 #greet{
-    background-color: rgb(13, 243, 224)
+    background-color: rgba(13, 243, 224, 0.3)
 }
 /* Opacity : transparent or not */
 .more1{
     opacity: 0.5;
+}
+/* Grasient */
+.button{
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    background: #ff6600;
+    margin: auto;
+    font-size: 100%;
+    padding: 50px;
+    background: linear-gradient(top, #ff6600 0%, yellow 100%);
+    /* The above parameters(where to begin, 
+    which color and % start, which color and % end) the above wont work
+    we need some vendor prefixes */
+    background: -moz-linear-gradient(top, #ff6600 0%, yellow 100%); /*Motzilla*/
+    background: -webkit-linear-gradient(top, yellow 0%, #ff4800 100%); /*chrome or safari*/
+    background: linear-gradient(top, #ff6600 0%, yellow 100%);
 }
