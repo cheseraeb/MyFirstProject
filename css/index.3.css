@@ -11,13 +11,47 @@
     padding: 20px 25%;
     border: 3px solid black;
     border-radius: 15px;
-    background-color: antiquewhite;
     background-image: url(../Images/cheeze.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 /* Short hand */
-/* .greet_box2{ */
+.greet_box2{
+    margin: 25px auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 25%;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: url(../Images/cheeze.gif) no-repeat bottom; /*short hand*/
+    background-size: cover;
+    /* background-image: url(../Images/cheeze.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
 
-/* } */
+}
+/* Multiple backgrounds */
+#banner{
+    background-color: gray;
+    width: cover;
+    height: 400px;
+    background-image:url(../Images/cheese-128.png),/*this is the top image*/ 
+    url(../Images/big_cheese_banner_logo.png);/*the imafe that will go behind it*/
+    background-repeat: no-repeat;
+    background-position: center, top left;
+    background-size: 300px, 100% 100%;
+ 
+}
+/* Color */
+#header{
+    background-color: #ff9100;
+}
+#greet{
+    background-color: rgb(13, 243, 224)
+}
+/* Opacity : transparent or not */
+.more1{
+    opacity: 0.5;
+}
